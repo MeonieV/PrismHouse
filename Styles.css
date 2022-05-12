@@ -1,0 +1,325 @@
+body {
+  background-color: #d1cfc9;
+  margin: 10px;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+header{
+  height: 50px;
+  background-image: url("Photos/Headers/HomeHead.jpg");
+  padding:20px;
+}
+
+#Red {background-image: url("Photos/Headers/RedHead.png");}
+#Orange {background-image: url("Photos/Headers/OrangeHead.png");}
+#Yellow {background-image: url("Photos/Headers/YellowHead.png");}
+#Green {background-image: url("Photos/Headers/GreenHead.png");}
+#Blue {background-image: url("Photos/Headers/BlueHead.png");}
+#Indigo {background-image: url("Photos/Headers/IndigoHead.png");}
+#Purple {background-image: url("Photos/Headers/PurpleHead.png");}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: times;
+}
+
+h2 {
+  font-family: verdana;
+}
+
+nav {
+  background-color: #37568c;
+  left: 10px;
+  top: 70px;
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+
+a:link {color: #70c4e0;}
+a:visited {color: #6379ab;}
+a:active {color: #506085;}
+a:hover {color: #00c3ff;}
+
+#HomeMain{
+top: 100px;
+padding: 30px 400px 30px 30px;
+background-color: #edebd5;
+}
+
+#HomeSect1 {
+  top: 400px;
+  padding: 30px 400px 30px 30px;
+  background-color: #edebd5;
+}
+
+#HomeSect2 {
+  top: 550px;
+  background-color: #edebd5;
+}
+
+#HomeList {
+  background-color: #d9d6b6;
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  width: 20%;
+  padding: 10px;
+  border: 1px solid;
+}
+
+#AboutMain {
+  top: 100px;
+  padding: 30px 400px 40px 30px;
+  background-color: #d3edd8;
+}
+
+#AboutSect1 {
+  top: 400px;
+  padding: 20px 400px 20px 30px;
+  background-color: #d3edd8;
+}
+
+#AboutAside{
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  padding: 10px;
+  width: 20%;
+  background-color: #b3c9b8;
+  border: 1px solid;
+}
+
+#ContactMain {
+  top: 100px;
+  background-color: #d6d3ed;
+}
+
+#ContactPrices {
+  top: 200px;
+  background-color: #d6d3ed;
+}
+
+table, td, tr {
+border: 2px solid black;
+padding: 5px;
+background-color: #c2c0d1
+}
+
+th {
+border: 2px solid black;
+padding: 5px;
+background-color: #a9a8b3;
+}
+
+#ContactSchedule {
+  background-color: #d6d3ed;
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  width: 20%;
+  padding-top: 5px;
+  border: 1px solid;
+}
+
+fieldset {
+  background-color: #c4c1db;
+}
+
+#GalleryMain {
+background-color: #f5c1df;
+}
+
+#RedBody {
+  background-color:#d97e7e;
+}
+
+#RedMain {
+  top: 100px;
+  padding: 30px 400px 30px 30px;
+  background-color: #c75f5f;
+}
+
+#RedImages {
+  background-color: #c75f5f;
+}
+
+#RedAside{
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  width: 200px;
+  padding: 10px;
+  background-color: #b34f4f;
+  border: 1px solid;
+  font-family: Arial Narrow;
+}
+
+#OrangeBody {
+  background-color: #cf9b74;
+}
+
+#OrangeMain {
+  top: 100px;
+  padding: 30px 400px 30px 30px;
+  background-color: #c78c5f;
+}
+
+#OrangeAside{
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  width: 200px;
+  padding: 10px;
+  background-color: #b0794f;
+  border: 1px solid;
+  font-family: Arial Narrow;
+}
+
+#OrangeImages {
+  background-color: #c78c5f;
+}
+
+#YellowBody{
+  background-color: #e3dd8f;
+}
+
+#YellowMain {
+  top: 100px;
+  padding: 30px 400px 30px 30px;
+  background-color: #ccc568;
+}
+
+#YellowAside{
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid;
+  background-color: #ada751;
+  font-family: Arial Narrow;
+}
+
+#YellowImages {
+  background-color: #ccc568;
+}
+
+#GreenBody {
+  background-color: #6cb066;
+}
+
+#GreenMain {
+  top: 100px;
+  padding: 30px 400px 30px 30px;
+  background-color: #62965d;
+}
+
+#GreenAside{
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid;
+  background-color: #4c7a47;
+  font-family: Arial Narrow;
+}
+
+#GreenImages {
+  background-color: #62965d;
+}
+
+#BlueBody {
+  background-color: #85c6de;
+}
+
+#BlueMain {
+  top: 100px;
+  padding: 30px 400px 30px 30px;
+  background-color: #68b1cc;
+}
+
+#BlueAside{
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  width: 200px;
+  padding: 10px;
+  background-color: #5699b3;
+  border: 1px solid;
+  font-family: Arial Narrow;
+}
+
+#BlueImages {
+  background-color: #68b1cc;
+}
+
+#IndigoBody {
+  background-color: #a584db;
+}
+
+#IndigoMain {
+  top: 100px;
+  padding: 30px 400px 30px 30px;
+  background-color: #8e68cc;
+}
+
+#IndigoAside{
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  width: 200px;
+  padding: 10px;
+  background-color: #7451ad;
+  border: 1px solid;
+  font-family: Arial Narrow;
+}
+
+#IndigoImages {
+  background-color: #8e68cc;
+}
+
+#PurpleBody {
+  background-color: #cf81e6;
+}
+
+#PurpleMain {
+  top: 100px;
+  padding: 30px 400px 30px 30px;
+  background-color: #b668cc;
+}
+
+#PurpleAside{
+  position: absolute;
+  right: 10px;
+  top: 133px;
+  width: 200px;
+  padding: 10px;
+  background-color: #954fa8;
+  border: 1px solid;
+  font-family: Arial Narrow;
+}
+
+#PurpleImages {
+  background-color: #b668cc;
+}
+
+section {
+  left: 10px;
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+footer{
+  border-top: 2px solid #000;
+  padding: 1px;
+  background-color: #eee;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  font-size: 16px;
+}
